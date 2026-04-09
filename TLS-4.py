@@ -30,11 +30,7 @@ def _(mo):
     \end{align*}
     $$
     konstruirali smo Ljapunovljevu funkciju
-    $$ V(x) = \frac{1}{2} x^\top P x + \frac{g}{l} (1- \cos x_1),
-    \quad P = \begin{bmatrix}
-    \frac{1}{2} \left( \frac{k}{m}  \right)^2 & \frac{1}{2} \frac{k}{m}  \\ \frac{1}{2} \frac{k}{m}  & 1
-    \end {bmatrix}.
-    $$
+    $$ V(x) = \frac{1}{2} x^\top P x + \frac{g}{l} (1- \cos x_1),\quad P = \begin{bmatrix} \frac{1}{2} \left( \frac{k}{m}  \right)^2 & \frac{1}{2} \frac{k}{m}  \\ \frac{1}{2} \frac{k}{m}  & 1 \end {bmatrix}.$$
     Parametri su $g, k, l, m \in [0,\infty\rangle $.
     """)
     return
